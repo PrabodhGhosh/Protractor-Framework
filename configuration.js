@@ -3,5 +3,10 @@ exports.config = {
   specs: ['SubmitForm.js'],
   capabilities: {
 	  'browserName': 'chrome'
+	},
+	
+	onPrepare : function()
+	{
+		browser.driver.manage().window().maximize();
 	}
 };
