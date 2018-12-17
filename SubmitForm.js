@@ -21,7 +21,7 @@ describe('Submit Form', function(){
 	it('Test Submit Form', function(){
 
 
-		var obj = require("./HomePageObjects.js");
+		var obj = require("HomePageObjects.js");
 
 
 		obj.Homepage1.Name.sendKeys("Prabodh");
