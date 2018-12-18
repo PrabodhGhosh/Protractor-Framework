@@ -2,7 +2,8 @@
 	"name": "ProtractorFramework",
 	"dependencies": {
 		"protractor": "^5.4.1",
-		"jasmine-data-provider": "^2.2.0"
+		"jasmine-data-provider": "^2.2.0",
+		"protractor-jasmine2-html-reporter": "0.0.7"
 	},
 	"scripts": {
 		"webdriver-manager-update": "./node_modules/.bin/webdriver-manager update",

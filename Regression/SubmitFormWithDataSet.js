@@ -3,6 +3,7 @@ describe('Submit Form', function(){
 	//Access multiple Data to drive the test
 	
 	var Data = requireData('FormSubmitData');
+	var using = require('jasmine-data-provider');
 	
 
 	// Access the URL in beforeEach function
@@ -23,7 +24,7 @@ describe('Submit Form', function(){
 
 	using(Data.DataSet, function (data, description) {
 
-		it('Using Data Provider', function(){
+		it('Using Data Provider'+' '+description, function(){
 
 			var obj = requirePageObjects('HomePageObjects');
 			obj.Homepage1.Name.sendKeys(data.Name);
