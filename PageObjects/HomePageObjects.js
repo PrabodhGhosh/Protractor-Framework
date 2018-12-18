@@ -25,9 +25,11 @@ function HomePage1()
 //	element(by.cssContainingText("[id='exampleFormControlSelect1'] option", "Female")).click(); //One way to select a value
 	this.Gender=element(by.css("select[id='exampleFormControlSelect1']")).click().element(by.css("select[id='exampleFormControlSelect1']>option:nth-child(2)")); //Another way
 //	to select a value
+	this.GenderF=element(by.css("select[id='exampleFormControlSelect1']")).click().element(by.css("select[id='exampleFormControlSelect1']>option:nth-child(2)"));
 	this.EmploymentStatus=element(by.id("inlineRadio1"));
 	this.SubmitBtn=element(by.buttonText("Submit"));
 	this.Success=element(by.css("div[class*='success']"));
+	this.CloseBtn=element(by.css("a[class='close']"));
 }
 
 Homepage1 = new HomePage1();
