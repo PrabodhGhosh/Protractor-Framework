@@ -4,7 +4,7 @@ var Jasmine2HtmlReporter = require('protractor-jasmine2-html-reporter');
 
 exports.config = {
 		seleniumAddress: 'http://localhost:4444/wd/hub',
-		specs: ['Regression/SubmitFormWithDataSet.js'],
+		specs: ['Regression/ShopItem.js'],
 		capabilities: {
 			'browserName': 'chrome'
 		},
@@ -12,6 +12,14 @@ exports.config = {
 		jasmineNodeOpts: {
 		    showColors: true, // Use colors in the command line report.
 		  },
+		
+		  //Regression suite
+		  
+		  suites:
+			  {
+			  
+			  Regression:['Regression/ShopItem.js','Regression/SubmitFormWithDataSet.js']
+			  },
 
 
 		onPrepare : function()
