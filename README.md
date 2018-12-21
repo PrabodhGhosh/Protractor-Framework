@@ -8,4 +8,5 @@ Features available in the framework -
 4. Page Object Model.
 5. Single command execution.
 6. Test Assertion using Jasmine framework. 
+7. Tried and tested Jenkins integration. 
 
