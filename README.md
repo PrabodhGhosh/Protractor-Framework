@@ -1,6 +1,6 @@
 This is a framework using Protractor (end to end testing tool for applications developed using AngularJS). 
 
-Features availble in the frmawork - 
+Features available in the framework - 
 
 1. Execution of tests based on suites. 
 2. Jasmine HTML Reporting. 
