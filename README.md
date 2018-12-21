@@ -5,6 +5,7 @@ Features availble in the frmawork -
 1. Execution of tests based on suites. 
 2. Jasmine HTML Reporting. 
 3. Jasmine Data Provider for multiple test data set. 
-4. Page Object Model
-5. Single command execution
+4. Page Object Model.
+5. Single command execution.
+6. Test Assertion using Jasmine framework. 
 
